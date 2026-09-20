@@ -65,17 +65,17 @@ the Draft link at it, for example `href="assets/my-paper.pdf"`.
 1. Create a free account at <https://github.com>. Pick a username you're
    happy to have in a URL, for example `charleszhang`.
 2. Create a new **public** repository named exactly
-   `YOURUSERNAME.github.io`. Leave it empty. Do not add a README.
+   `trczecon.github.io`. Leave it empty. Do not add a README.
 3. In this folder, run the commands GitHub shows you on the new repo page.
    They will look like this:
 
 ```bash
-git remote add origin https://github.com/YOURUSERNAME/YOURUSERNAME.github.io.git
+git remote add origin https://github.com/trczecon/trczecon.github.io.git
 git branch -M main
 git push -u origin main
 ```
 
-4. Your site is live at `https://YOURUSERNAME.github.io` within a minute or two.
+4. Your site is live at `https://trczecon.github.io` within a minute or two.
 
 **Every time you change something afterwards**
 
@@ -104,7 +104,7 @@ Four A records for the bare domain. Host `@`, pointing to:
 185.199.111.153
 ```
 
-One CNAME record. Host `www`, pointing to `YOURUSERNAME.github.io`
+One CNAME record. Host `www`, pointing to `trczecon.github.io`
 (with the trailing dot if Squarespace asks for one).
 
 Remove any existing A or CNAME records that Squarespace added to point
